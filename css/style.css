@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/poppins.woff') format('woff'),
+       url('/fonts/poppins.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #333;
+  line-height: 2.1em;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  outline: 0;
+  color: rgb(27, 187, 131);
+  text-decoration: none;
+}
+
+div#container {
+  padding: 50px 0;
+}
+
+div#content {
+  padding: 4vw 5vw;
+  padding-right: 0;
+  width: 90vw;
+  max-width: 60ch;
+}
+
+p {
+  padding: 12px 0;
+}
+
+img {
+  border: 0
+}
